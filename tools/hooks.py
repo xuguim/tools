@@ -26,7 +26,9 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/tools/css/tools.css"
-# app_include_js = "/assets/tools/js/tools.js"
+app_include_js = [
+	"tools.bundle.js",
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/tools/css/tools.css"
@@ -41,6 +43,7 @@ app_license = "mit"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
+# page_js = {"page" : "public/js/dev-tools/dev-tools.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
