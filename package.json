@@ -1,0 +1,16 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "tools for validate customize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xu.gui.m@gail.com",
+  "license": "ISC",
+  "dependencies": {
+    "diff2html": "^3.4.48",
+    "vue": "^3.5.13"
+  }
+}
